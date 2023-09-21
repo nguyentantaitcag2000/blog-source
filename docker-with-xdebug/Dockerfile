@@ -31,7 +31,7 @@ WORKDIR /var/www/html
 
 # Sao chép ứng dụng vào image
 COPY . .
-COPY ./docker-php.ini /usr/local/etc/php/
+COPY ./docker-php.ini "${PHP_INI_DIR}"/conf.d
 # COPY package*.json ./
 # Cài đặt Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
