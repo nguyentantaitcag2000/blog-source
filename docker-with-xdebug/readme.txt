@@ -1,4 +1,4 @@
-#HI
+
 - SAU KHI BUILD XONG IMAGE
 - VÀO CODE Ở ĐÂU ĐÓ THÊM VÀO ĐOẠN CODE SAU ĐỂ KIỂM TRA:
 ```
