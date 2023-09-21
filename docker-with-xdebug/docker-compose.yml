@@ -44,7 +44,7 @@ services:
     environment:
       PMA_HOST: db
       PMA_PORT: 3306
-      # UPLOAD_LIMIT: 100000000 // Vì tôi đã có cài đặt ở docker-php.ini nhưng vẫn chưa xác định được nó có tác dụng không
+      UPLOAD_LIMIT: 100000000
     depends_on:
       - db
     networks:
